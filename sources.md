@@ -62,12 +62,12 @@ What sellers of high-gross units actually take home. Lead with the conservative 
 Confirm/refine these from BlackPurl unit-sales data before the meeting:
 
 - **Build sheet:** base unit $76,240 / cost $56,000 (26.55% gross); factory options $10,150 / $6,400 (36.95%); total $86,390 / $62,400 / **$23,990 gross (27.8%)**.
-- **Unit range:** $50k–$130k at similar margins. **Volume:** "10+ units/rep/month."
-- **Current comp:** ~$75,000 base **+ a 0.06%-of-sale commission** (≈ $5,760/yr at $9.6M revenue) ≈ **$80,760/yr total**.
+- **Sales per closer:** **~$400,000/month (~$4.8M/year)**; unit range $50k–$130k at similar margins.
+- **Current comp:** $75,000 base **+ a 0.6%-of-sales commission** (0.6% × $4.8M ≈ $28,800/yr) ≈ **$103,800/yr total**.
 - **Lead-flow cost:** significant; exact figure is leadership's to insert into the [cost-of-sale model](docs/economics.md).
 
 ## Honesty notes
 
 - The **$150k–$400k "high-line producer"** range (in [market-comparison](docs/market-comparison.md)) is industry orientation, not a trailer-specific survey — trailer-specific high-ticket comp data isn't published publicly (the closest sources, NTDA/MRAA/RVDA, are gated). It shows *direction*, not a precise benchmark.
-- Comparing Pine Hill's ~4% total-pay-share to the 25% commission standard is fair for commission-only reps (whose total pay ≈ their commission), but it compares a *total-pay* share (A→B bridge) — stated as such, not as a like-for-like per-deal rate.
+- Comparing Pine Hill's ~8% total-pay-share (≈$104k ÷ ~$1.3M gross) to the 25% commission standard is fair for commission-only reps (whose total pay ≈ their commission), but it compares a *total-pay* share against a *per-deal* rate — stated as such, not as a like-for-like number.
 - Several primary sources (NADA, NCM, NTDA, MRAA, RVDA) publish the most authoritative numbers behind membership/purchase walls; this brief cites their public summaries and names the gated reports so they can be obtained if leadership wants the underlying detail.

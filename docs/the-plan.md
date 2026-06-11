@@ -1,6 +1,6 @@
 # The Plan
 
-The concrete compensation structure being proposed, with worked examples on real Pine Hill units.
+The concrete compensation structure being proposed, with worked examples on real Pine Hill numbers.
 
 ---
 
@@ -9,72 +9,64 @@ The concrete compensation structure being proposed, with worked examples on real
 | Component | Proposal | Notes |
 |---|---|---|
 | **Base salary** | **$75,000 — unchanged** | Nothing is cut. Provides stability and reflects that leads are company-generated (inbound). |
-| **Commission** | **$1,000–$1,250 per unit delivered** | Flat per-unit (no margin math needed to pay it). ≈ 5–6% of gross. |
-| **Eligibility** | Paid on units **delivered/closed** | Variable cost — $0 on units not sold. |
-| **Pay mix at target** | ~65 / 35 base : variable at solid volume; shifts toward variable for top producers | Conservative mix appropriate for inbound closing. |
+| **Commission** | **Raise from 0.6% → ~2% of sales** | Keeps the structure we already use (a % of sales) — just at a competitive rate. Band: 1.5%–2.5%. |
+| **Paid on** | Sales **booked / delivered** | Variable cost — $0 in a slow month. A figure we already track precisely. |
 
-**Why flat per-unit instead of % of gross:** it sidesteps the "we don't know our exact margins" objection entirely, it's dead-simple for reps to understand and trust, and our margins are consistent enough (~26–37%) that a flat amount tracks gross closely. A %-of-gross version is in the [alternatives](#alternative-of-gross) below if leadership prefers it.
+**Why keep the "% of sales" basis** (rather than switch to % of gross): it's exactly how closers are paid today, so it's the smallest possible change for leadership to approve and for reps to understand, and it needs no margin calculation to administer. Our margins are consistent enough (~26–37%) that a % of sales tracks gross closely. A %-of-gross alternative is noted [below](#optional-pay-on-gross-instead) for margin purists.
 
 ---
 
-## What a rep earns
+## What a closer earns
 
-$75k base + $1,000/unit:
+$75k base + commission on ~$4.8M of annual sales:
 
-| Units / month | Units / year | Commission | **Total comp** |
-|---|---|---|---|
-| 8 | 96 | $96,000 | $171,000 |
-| **10 (solid)** | 120 | $120,000 | **$195,000** |
-| 12 | 144 | $144,000 | $219,000 |
-| **15 (top)** | 180 | $180,000 | **$255,000** |
+| Commission rate | Commission | **Total comp** |
+|---|---|---|
+| 0.6% (today) | $28,800 | $103,800 |
+| 1.5% of sales | $72,000 | $147,000 |
+| **2.0% of sales (recommended)** | $96,000 | **$171,000** |
+| 2.5% of sales | $120,000 | $195,000 |
 
-At $1,250/unit, add ~$30k–$54k across that range (solid ≈ $225k, top ≈ $300k).
+Higher producers earn proportionally more — a closer booking $600k/month (~$7.2M/yr) at 2% earns ~$219k. Pay scales with sales, and only with sales.
 
 ---
 
 ## Worked example — a real unit
 
-Take the build sheet from our system:
+From a build sheet in our system: total sale **$86,390**, cost $62,400, **gross $23,990 (27.8%)**.
 
-| | Price | Cost | Gross |
-|---|---|---|---|
-| Base unit | $76,240 | $56,000 | $20,240 |
-| Factory options | $10,150 | $6,400 | $3,750 |
-| **Total** | **$86,390** | **$62,400** | **$23,990** |
+- At **2% of sales**, that unit pays the closer **~$1,728** (the company keeps **$22,262** of the gross).
+- A closer booking **~$400k of sales a month** earns **~$8,000/month** in commission + $6,250 base ≈ **$14,250/month** ≈ **$171k/year**.
+- Today, that same closer earns 0.6% = ~$2,400/month commission ≈ **$103,800/year**. The proposal roughly triples the commission while keeping the base.
 
-- Rep delivers this unit → earns **$1,000** (the company keeps **$22,990** of the gross).
-- Rep delivers **10 like it in a month** → **$10,000 commission** + $6,250 base ≈ **$16,250 that month** ≈ **$195k/year.**
-- The company nets **~$230k of gross that month** from that rep after paying them — on leads it was already paying for.
-
-**Option-attach upside:** those factory options carry **36.95% margin** vs. **26.55%** on the base unit. A commissioned closer who attaches one more option package per deal grows gross meaningfully — often enough to self-fund the commission. A salaried rep has no reason to bother.
+**Option-attach upside:** factory options carry **36.95% margin** vs. **26.55%** on the base unit, and they add to the sale price — so a closer who attaches more options grows both their own commission and the company's gross. A flat salary gives no reason to push them.
 
 ---
 
 ## Optional add-ons (only if leadership wants more structure)
 
-- **Volume accelerator:** step the per-unit rate up (e.g., to $1,500) once a rep crosses a monthly unit threshold, to reward the top tier. Keeps cost-of-sale flat because the extra pay rides on extra gross.
-- **Margin protector:** pay the per-unit amount only on deals that clear a minimum gross (e.g., ≥ $12k), so the plan never rewards a giveaway deal. Reinforces "hold the price."
-- **Attach bonus:** a small extra (e.g., $150) on units that include a factory-option package, to explicitly drive the high-margin upsell.
+- **Volume accelerator:** step the rate up (e.g., to 2.5%) once a closer crosses a monthly sales threshold, to reward the top tier. Cost-of-sale stays flat because the extra pay rides on extra sales.
+- **Margin floor:** apply the commission only on deals that clear a minimum gross, so the plan never rewards a giveaway deal. Reinforces "hold the price."
 
 Keep the core plan simple first; layer these only if needed.
 
 ---
 
-## Alternative — % of gross
+## Optional — pay on gross instead
 
-If leadership prefers paying on margin rather than a flat amount:
+If leadership prefers paying on margin rather than sale price:
 
-| Rate | ≈ Per unit ($21.6k gross) | Solid (120 u) | Top (180 u) |
-|---|---|---|---|
-| 5% of gross | $1,080 | $205k | $269k |
-| 6% of gross | $1,296 | $230k | $308k |
+| Basis | Rate for ~$171k total | Note |
+|---|---|---|
+| % of **sales** (recommended) | ~2.0% | Matches today's structure; no margin math. |
+| % of **gross** | ~7.5% of gross | Better protects margin (a discounted deal pays less), but requires reporting gross per deal. |
 
-Same outcomes, slightly more admin (requires reporting gross per deal). The flat per-unit plan is recommended for simplicity and to neutralize the margin-data objection.
+Both land a solid closer near $171k. The %-of-sales version is recommended for simplicity and continuity; the %-of-gross version is the more incentive-aligned refinement if you want reps to actively protect margin. See [why the basis matters](market-comparison.md#why-not-pay-on-revenue).
 
 ---
 
 ## What this is *not*
 
-- **Not a draw, not at-risk base.** The $75k stays guaranteed; commission is pure upside on top. (A draw structure exists in lower-base dealer models — we don't need it because we're keeping full salary.)
-- **Not tied to revenue.** Paying on units/gross — never a % of sale price — so a discounted deal doesn't overpay and the rep is incentivized to hold margin. See [why](market-comparison.md#why-not-pay-on-revenue).
-- **Not a guess.** Every figure traces to our build sheets or a cited source — see [`/sources.md`](../sources.md).
+- **Not a base cut.** The $75k stays guaranteed; the change is purely a higher commission on top.
+- **Not a new, complicated system.** It's the same "base + % of sales" reps already have — at a competitive rate.
+- **Not a guess.** Every figure traces to our own sales/margin data or a cited source — see [`/sources.md`](../sources.md).

@@ -1,102 +1,79 @@
 # The Economics
 
-The per-rep math behind the proposal, plus the sensitivity analysis that makes it bulletproof against "we don't really know our numbers."
+The per-closer math behind the proposal, plus the sensitivity analysis that holds up against "we don't really know our numbers."
 
 ---
 
-## Per-rep production
+## Per-closer production
 
 | Input | Conservative | Likely (real margins) |
 |---|---|---|
-| Units / month | 10 | 10 |
-| Units / year | 120 | 120 |
-| Avg sale price | $80,000 | $80,000 |
-| **Revenue / year** | **$9,600,000** | **$9,600,000** |
+| Sales / month | $400,000 | $400,000 |
+| **Sales / year** | **$4,800,000** | **$4,800,000** |
 | Gross margin | 20% | ~27% |
-| Gross profit / unit | $16,000 | ~$21,600 |
-| **Gross profit / year** | **$1,920,000** | **~$2,592,000** |
+| **Gross profit / year** | **$960,000** | **~$1,296,000** |
 
-Source for inputs: Pine Hill build sheets + stated volume ("10+ units/month, $50k–$130k per unit at similar margins"). The 20% margin is a deliberate haircut below our actual ~27% so the case can't be dismissed as optimistic.
+Source for inputs: Pine Hill (~$400k/month in sales per closer; ~27% gross margin from our build sheets). The 20% margin is a deliberate haircut below actual so the case can't be dismissed as optimistic.
 
 ---
 
 ## Cost of sale
 
-Here, "cost of sale" = a salesperson's total comp as a share of the gross profit they personally produce — the cleanest way to gauge whether pay tracks production. For a commission-based dealer rep this roughly equals the per-deal commission rate, and the dealer standard for that rate is **20–30% of front-end gross, 25% most common**, confirmed across auto, RV, powersports, and farm/heavy equipment ([sources, Section A](../sources.md)). Store-level cost-of-sale KPIs sit in a similar zone (equipment dealers' sales salaries ~7% of *sales*; powersports total sales comp 18–22% of *expenses* — [Section B](../sources.md)).
+"Cost of sale" here = a closer's total comp as a share of the gross profit they personally produce — the cleanest way to gauge whether pay tracks production. For a commission-based dealer rep this roughly equals the per-deal commission rate, and the dealer standard for that rate is **20–30% of front-end gross, 25% most common**, confirmed across auto, RV, powersports, and farm/heavy equipment ([sources, Section A](../sources.md)).
 
-| Scenario | Comp | ÷ Conservative gross ($1.92M) | ÷ Real gross ($2.59M) |
+| Scenario | Comp | ÷ Conservative gross ($960k) | ÷ Real gross ($1.296M) |
 |---|---|---|---|
-| **Today** (base + 0.06%) | $80,760 | **4.2%** | **3.1%** |
-| Proposed — solid, 10/mo | $195,000 | 10.2% | 7.5% |
-| Proposed — strong, 12/mo | $219,000 | 9.5%* | 7.0%* |
-| Proposed — top, 15/mo | $255,000 | 9.2%* | 6.8%* |
+| **Today** (base + 0.6%) | $103,800 | **10.8%** | **8.0%** |
+| Proposed — 1.5% of sales | $147,000 | 15.3% | 11.3% |
+| Proposed — **2.0% of sales** | **$171,000** | **17.8%** | **13.2%** |
+| Proposed — 2.5% of sales | $195,000 | 20.3% | 15.0% |
+| *Full standard (25% of gross)* | *$240k–$324k* | *25%* | *25%* |
 
-*At higher volume the rep produces proportionally more gross, so cost-of-sale stays flat even as pay rises.
+**Takeaway:** today total pay is ~8–11% of the gross a closer produces. The recommended plan moves that to ~13–18% — a real step up that still sits **below the 20–30% commission standard**. There's no version of this where the company overpays relative to the gross being generated.
 
-**Takeaway:** today total pay is ~3–4% of the gross a closer produces — well below where dealer sales pay normally sits. The full proposed plan lands at ~7–10%, still comfortably under the 20–30% commission standard. Even at the top tier, there's no version of this where the company overpays relative to the gross being generated.
+### As a share of sales, and lead cost
 
-### Fully-loaded with lead cost
+Another lens: the recommended comp ($171k) is **~3.6% of the $4.8M in sales** a closer books. For reference, equipment dealers run total sales salaries around **7% of sales** ([WEDA/NAEDA](https://www.equipmentdealermagazine.com/weda-2019-cost-of-doing-business-study-what-we-learned/)) — so one closer's full comp at ~3.6% of their own sales is comfortably in range.
 
-Leadership's strongest card is lead spend, so let's put it in the model. Total selling cost = comp + lead cost. Even with a heavy lead-cost assumption:
-
-| | Per rep / year |
-|---|---|
-| Proposed comp | $195,000 |
-| + Lead cost (illustrative — insert real figure) | e.g. $150,000 |
-| **Total selling cost** | **$345,000** |
-| ÷ gross ($1.92M conservative) | **18%** |
-| ÷ gross ($2.59M real) | **13%** |
-
-Even *with* aggressive lead spend stacked on top, total cost of sale stays at or under the 20% industry **floor** — and notice that the lead dollars go to ad platforms, while the comp dollars go to the person who actually converts them. The comp line is the underweight one. Replace the $150k with Pine Hill's real lead cost to finalize.
+Lead-flow cost sits on top of comp as part of total selling cost. **Insert Pine Hill's real per-closer lead cost here** — the comp line is the piece this brief addresses, and it's the one currently lightest relative to the gross it generates.
 
 ---
 
 ## Sensitivity
 
-The whole point of these tables: **the recommendation survives any reasonable input.**
+The recommendation survives any reasonable input.
 
-### By margin (120 units, $80k avg, $75k base + $1,000/unit = $195k comp)
+### By margin ($75k base + 2% of sales = $171,000 comp, $4.8M sales)
 
-| Real margin | Gross / unit | Gross / year | Comp as % of gross | Company keeps |
-|---|---|---|---|---|
-| 18% | $14,400 | $1.73M | 11.3% | $1.53M (89%) |
-| 20% | $16,000 | $1.92M | 10.2% | $1.73M (90%) |
-| 22% | $17,600 | $2.11M | 9.2% | $1.92M (91%) |
-| 27% | $21,600 | $2.59M | 7.5% | $2.40M (93%) |
-
-Across every plausible margin, we keep **~90%+ of gross** after fully funding the new plan.
-
-### By volume ($75k base + $1,000/unit)
-
-| Units / month | Units / year | Commission | **Total comp** |
+| Real margin | Gross / year | Comp as % of gross | Company keeps |
 |---|---|---|---|
-| 6 | 72 | $72,000 | $147,000 |
-| 8 | 96 | $96,000 | $171,000 |
-| **10** | 120 | $120,000 | **$195,000** |
-| 12 | 144 | $144,000 | $219,000 |
-| 15 | 180 | $180,000 | $255,000 |
+| 18% | $864,000 | 19.8% | $693,000 (80%) |
+| 20% | $960,000 | 17.8% | $789,000 (82%) |
+| 22% | $1,056,000 | 16.2% | $885,000 (84%) |
+| 27% | $1,296,000 | 13.2% | $1,125,000 (87%) |
 
-Pay scales with production and *only* with production. A slow month costs the company nothing extra; a big month is already paid for by the gross it generated.
+Across every plausible margin, the company keeps **~80%+ of gross** after funding the higher commission.
 
-### By commission rate (120 units, $75k base)
+### By commission rate ($75k base, $4.8M sales)
 
-| Per-unit | ≈ % of real gross | Commission | **Total comp** |
+| Rate (% of sales) | Commission | **Total comp** | ÷ real gross |
 |---|---|---|---|
-| $750 | 3.5% | $90,000 | $165,000 |
-| **$1,000** | 4.6% | $120,000 | **$195,000** |
-| **$1,250** | 5.8% | $150,000 | **$225,000** |
-| $1,500 | 6.9% | $180,000 | $255,000 |
+| 0.6% (today) | $28,800 | $103,800 | 8.0% |
+| 1.5% | $72,000 | $147,000 | 11.3% |
+| **2.0% (recommended)** | $96,000 | **$171,000** | 13.2% |
+| 2.5% | $120,000 | $195,000 | 15.0% |
+| *6.75% (= 25% of gross)* | *$324,000* | *$399,000* | *30.8%* |
 
-Recommended band: **$1,000–$1,250/unit** — a closing rate appropriate for inbound leads, landing solid producers at **$195k–$225k**.
+Recommended band: **1.5%–2.5% of sales**, landing solid closers at **$147k–$195k** (≈$171k at 2%). The commission is only paid on sales actually booked, so it scales with production and costs nothing extra in a slow month.
 
 ---
 
 ## The retention consideration
 
-One closer represents **~$9.6M in annual revenue**, so keeping a proven one is worth a lot. If a competitor hires one away at $150k, the replacement cost adds up quickly:
+One closer represents **~$4.8M in annual sales**, so keeping a proven one is worth a lot. If a competitor hires one away, the replacement cost adds up quickly:
 
-- **Lost gross during the vacancy:** a 3–6 month gap to hire and ramp a replacement ≈ **$0.5M–$1.3M of gross** not captured.
+- **Lost sales during the vacancy:** a 3–6 month gap to hire and ramp a replacement = a large block of sales not captured.
 - **Lower close rate while ramping:** our paid inbound leads convert less well under a newer rep — reduced return on the same ad spend.
 - **Replacement & training cost** on top.
 
-Set against that, the **~$120k/year** of variable commission the proposal adds is modest — and it's only paid when the gross is already generated. The plan is best read as low-cost insurance on a very valuable, hard-to-replace producer. (NADA's 2025 Workforce Study notes sales-consultant turnover is the highest role in the store and rose 13 points in 2024 — retention is an industry-wide pressure, not a hypothetical.)
+Set against that, the **~$67k/year** of additional commission the recommended plan adds (from ~$104k to ~$171k) is modest — and it's only paid when the sales are already booked. NADA's 2025 Workforce Study notes sales-consultant turnover is the highest role in the store and rose 13 points in 2024, so retention is an industry-wide pressure, not a hypothetical.
