@@ -22,18 +22,18 @@ Source for inputs: Pine Hill build sheets + stated volume ("10+ units/month, $50
 
 ## Cost of sale
 
-"Cost of sale" = total rep comp ÷ gross profit that rep produces. It's the only honest way to judge whether a salesperson is paid appropriately. **Dealer-industry norm: 20–35%** ([Proactive Training Solutions](https://proactivetrainingsolutions.com/dealership-pay-plan-design-compensation/)).
+Here, "cost of sale" = a salesperson's total comp as a share of the gross profit they personally produce — the cleanest way to gauge whether pay tracks production. For a commission-based dealer rep this roughly equals the per-deal commission rate, and the dealer standard for that rate is **20–30% of front-end gross, 25% most common**, confirmed across auto, RV, powersports, and farm/heavy equipment ([sources, Section A](../sources.md)). Store-level cost-of-sale KPIs sit in a similar zone (equipment dealers' sales salaries ~7% of *sales*; powersports total sales comp 18–22% of *expenses* — [Section B](../sources.md)).
 
 | Scenario | Comp | ÷ Conservative gross ($1.92M) | ÷ Real gross ($2.59M) |
 |---|---|---|---|
-| **Today** ($75k salary) | $75,000 | **3.9%** | **2.9%** |
+| **Today** (base + 0.06%) | $80,760 | **4.2%** | **3.1%** |
 | Proposed — solid, 10/mo | $195,000 | 10.2% | 7.5% |
 | Proposed — strong, 12/mo | $219,000 | 9.5%* | 7.0%* |
 | Proposed — top, 15/mo | $255,000 | 9.2%* | 6.8%* |
 
 *At higher volume the rep produces proportionally more gross, so cost-of-sale stays flat even as pay rises.
 
-**Takeaway:** today we're at ~3–4% — between one-sixth and one-ninth of the industry norm. The full proposed plan lands at ~7–10%, *still* well under the 20% floor. There is no version of this where we overpay.
+**Takeaway:** today total pay is ~3–4% of the gross a closer produces — well below where dealer sales pay normally sits. The full proposed plan lands at ~7–10%, still comfortably under the 20–30% commission standard. Even at the top tier, there's no version of this where the company overpays relative to the gross being generated.
 
 ### Fully-loaded with lead cost
 
@@ -91,12 +91,12 @@ Recommended band: **$1,000–$1,250/unit** — a closing rate appropriate for in
 
 ---
 
-## Risk of inaction (the number that should end the debate)
+## The retention consideration
 
-One closer represents **~$9.6M in annual revenue.** If we underpay and a competitor poaches them at $150k:
+One closer represents **~$9.6M in annual revenue**, so keeping a proven one is worth a lot. If a competitor hires one away at $150k, the replacement cost adds up quickly:
 
 - **Lost gross during the vacancy:** a 3–6 month gap to hire and ramp a replacement ≈ **$0.5M–$1.3M of gross** not captured.
-- **Lower close rate while ramping:** our expensive inbound leads convert worse under a green rep — more waste on the same ad spend.
+- **Lower close rate while ramping:** our paid inbound leads convert less well under a newer rep — reduced return on the same ad spend.
 - **Replacement & training cost** on top.
 
-The expected cost of *one* departure dwarfs the **~$120k/year** of variable commission the proposal adds. We are currently running that risk to "save" money that is small relative to the gross it protects.
+Set against that, the **~$120k/year** of variable commission the proposal adds is modest — and it's only paid when the gross is already generated. The plan is best read as low-cost insurance on a very valuable, hard-to-replace producer. (NADA's 2025 Workforce Study notes sales-consultant turnover is the highest role in the store and rose 13 points in 2024 — retention is an industry-wide pressure, not a hypothetical.)

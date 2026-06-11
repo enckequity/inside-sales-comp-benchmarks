@@ -1,6 +1,6 @@
 scenario,units_per_month,units_per_year,avg_sale_price,gross_margin_pct,gross_per_unit,gross_per_year,base_salary,commission_per_unit,total_commission,total_comp,comp_pct_of_gross,company_keeps_gross,note
-current,10,120,80000,0.20,16000,1920000,75000,0,0,75000,0.039,1845000,"today: flat salary, conservative 20% margin"
-current_real_margin,10,120,80000,0.27,21600,2592000,75000,0,0,75000,0.029,2517000,"today vs real ~27% margin"
+current,10,120,80000,0.20,16000,1920000,75000,48,5760,80760,0.042,1839240,"today: $75k base + 0.06% of revenue commission (~$5760/yr); conservative 20% margin"
+current_real_margin,10,120,80000,0.27,21600,2592000,75000,48,5760,80760,0.031,2511240,"today vs real ~27% margin; current commission is 0.06% of sale price"
 proposed_solid,10,120,80000,0.20,16000,1920000,75000,1000,120000,195000,0.102,1725000,"recommended: $1000/unit, conservative margin"
 proposed_solid_real,10,120,80000,0.27,21600,2592000,75000,1000,120000,195000,0.075,2397000,"recommended at real margin"
 proposed_solid_1250,10,120,80000,0.27,21600,2592000,75000,1250,150000,225000,0.087,2367000,"upper rec rate $1250/unit"
