@@ -1,6 +1,11 @@
 # Sources
 
-Every figure in this repo traces to one of the sources below. Each is tagged with a **quality tier** and a **SaaS-skew flag** so you can weight it appropriately. Compiled 2026-06-11.
+This proposal uses two kinds of figures:
+
+1. **Pine Hill internal inputs** (not cited below — they're ours): the build sheet ($86,390 / $62,400 / $23,990, 26.55% & 36.95% margins), unit range ($50k–$130k), volume ("10+/rep/month"), and current ~$75k comp. Confirm/refine these from BlackPurl unit-sales data before the meeting.
+2. **External industry benchmarks** — cited below. The most load-bearing one is the dealer **cost-of-sale norm (20–35% of gross produced)**; the rest provide commission-structure and comparable-pay context. Each source is tagged with a **quality tier** and a **SaaS-skew flag**. Compiled 2026-06-11.
+
+> Note: the SaaS-skewed "inside sales / AE" figures and the regional (Lancaster) data below are retained for completeness but are **not central** to the Pine Hill case — our closers are a higher-gross tier than those surveys describe (see [`docs/market-comparison.md`](docs/market-comparison.md)).
 
 ## Quality tiers
 

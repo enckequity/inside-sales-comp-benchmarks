@@ -1,48 +1,53 @@
 # Methodology
 
-How the numbers in this repo were gathered, reconciled, and turned into recommendations — and, just as importantly, where the data is genuinely missing.
+How this proposal was built, what's a Pine Hill input vs. a cited external benchmark, and where the numbers can be tightened.
 
-## The core problem
+## What changed and why
 
-There is **no single clean source** for "what to pay an inside sales closer at a trailer dealer." The data splits into three imperfect pools, each strong where the others are weak:
+This repo started as a generic "what does an inside sales rep earn" benchmark. Once Pine Hill's real unit economics came to light — **$80k+ built-to-order units, ~$22k–$24k gross each, 10+ units/rep/month** — it became clear the generic benchmarks (which describe ~$2–5k-gross, low-volume units) were the wrong tier. The repo was re-scoped into a **leadership business case** grounded in our actual numbers, with industry data used only where it's genuinely comparable.
 
-| Pool | Strong for | Weak for |
-|---|---|---|
-| **Government wage data (BLS)** | Pay *levels* and *regional* differences; large, unbiased sample | Can't separate base from commission; no plan *structure* |
-| **Inside-sales comp surveys** | Plan *structure* — pay mix, quota multiples, commission logic | Heavily **SaaS/tech-skewed**; dollar levels inflated 2–3× |
-| **Dealer-industry sources** | Commission *mechanics* — gross-margin basis, packs, accelerators | Sparse, sometimes dated/anecdotal; rarely trailer-specific |
+## Two kinds of numbers in here
 
-The method is **triangulation**: take each fact from the pool that's most trustworthy for it, then reconcile.
+**1. Pine Hill inputs (from Dakota / our systems):**
+- Real build sheet: base unit $76,240 price / $56,000 cost (26.55% margin); factory options $10,150 / $6,400 (36.95%); total $86,390 / $62,400 / $23,990 gross (27.8%).
+- Unit range: $50k–$130k at "similar margin percentages."
+- Volume: "10+ units per month" per closer.
+- Current comp: ~$75k salary.
+- Lead-flow cost: known to be significant but the exact figure is leadership's to insert.
 
-## How each output was derived
+**2. Cited external benchmarks (public sources, see [`sources.md`](sources.md)):**
+- Dealer cost-of-sale norm: salesperson comp = **20–35% of gross produced**.
+- Commission paid on **gross margin, not revenue** (~75% of dealers).
+- The "$67k median" used as the *counter*-example (wrong tier).
+- High-line / RV / equipment top-producer pay context ($150k–$400k+).
 
-**Pay levels (base + total cash).** Anchored to BLS OEWS SOC 41-4012 (the occupation a trailer closer maps to), which gives total-cash percentiles by geography. Because OEWS bundles commission into the wage, *base salary* was separately read from non-SaaS aggregators (PayScale, Salary.com, Indeed) and the two were reconciled (BLS total-cash median ~$67k national ≈ PayScale base ~$53k + commission). Dealer-floor proxies (powersports/RV at ~$56–57k) confirmed the band.
+## How the recommendation was derived
 
-**Commission structure.** Taken almost entirely from Tier-4 dealer sources, which agree the basis is **% of front-end gross profit**, typically 20–30% (truck-trailer survey average 21%), after a pack of ~$800–$1,200. The general-sales "5–10% of revenue" figure was reconciled to this: ~25% of gross on an 18%-margin unit ≈ ~4.5% of revenue, so the two conventions agree once put on the same basis.
+1. **Compute per-rep gross production** from our units × volume × margin. Deliberately model a **conservative 20% margin** (below our real ~27%) so the case can't be dismissed as optimistic.
+2. **Express current pay as cost-of-sale** (comp ÷ gross produced) → ~3–4%, vs. the 20–35% industry norm. This is the core argument.
+3. **Set the target pay** below the high-line comparables and far below the literal 20–35% guideline — landing at a conservative ~$195k–$300k — so it's defensible against any "you're overpaying" pushback.
+4. **Back into a per-unit rate** ($1,000–$1,250) that delivers that target at realistic volume, chosen as a *closing* rate (inbound) rather than a hunter's rate.
+5. **Stress-test** across margin (18–27%), volume (6–15/mo), and rate ($750–$1,500) — the recommendation holds throughout (company keeps ~90%+ of gross in every case).
+6. **Pre-empt the three known objections** with the same numbers.
 
-**Pay mix & quota multiple.** Structure borrowed from the SaaS surveys (the only place this is measured well), then adjusted *more conservative* (60/40 instead of 50/50) because thin physical-goods margins can't fund SaaS-style aggression.
+## Conservative-by-design choices
 
-**Regional adjustment.** Two BLS signals: occupation-specific (Lancaster sales reps = 0.94× US) and all-occupations (Lancaster = 0.85× US). The occupation-specific figure is weighted more heavily because it matches this exact role; the all-occupations figure sets a floor. Result: **0.90–0.94×**.
+Every modeling choice was made to *understate* the case, so the real situation is even more favorable:
+- 20% margin modeled vs. ~27% actual.
+- 10 units/mo vs. stated "10+".
+- $80k avg vs. units running up to $130k.
+- Full $75k base kept (no offsetting cut) when computing the new total.
 
-## The SaaS-skew correction (most important adjustment)
+## What to tighten before the meeting
 
-RepVue, Bridge Group, and Pavilion/QuotaPath are built from software sellers. SaaS pay is inflated by 70–90% software margins, recurring contract values, and VC-funded talent competition — **none of which apply to a dealer selling physical inventory at ~15–20% margin.** Their OTEs ($135k–$200k) run ~2–3× what a trailer closer realistically earns. Every SaaS-derived figure in this repo is flagged; SaaS data is used **only for structure**, never for dollar levels. Dollar anchors come from BLS + non-SaaS aggregators + dealer proxies.
+- **Insert real lead-flow cost** into the [fully-loaded cost-of-sale](economics.md#fully-loaded-with-lead-cost).
+- **Confirm average unit price and monthly volume** per rep (we used conservative $80k / 10) — pull from BlackPurl unit-sales data for exact figures.
+- **Confirm current comp** structure (we assumed ~$75k salary, minimal/no commission today).
+- Optionally pull Pine Hill's **actual blended gross margin** from the unit-sales tracker to replace the 20%/27% bracket with one real number.
 
-## What's missing (be honest about it)
+The conclusion does not depend on getting these exact — the sensitivity tables show it holds across the whole realistic range — but exact figures make it airtight.
 
-- **No clean public trailer-floor-closer pay figure.** The one trailer-titled number (Glassdoor "Trailer Sales Representative" ~$121k) is contaminated by semi-trailer / commercial-fleet B2B reps and OEM territory managers, and is *not* used at face value.
-- **The right trailer-specific sources are member-gated:** NTDA's Dealer Compensation Survey and NATM's workforce surveys (see [`sources.md`](sources.md)). NTDA also skews toward heavy/semi-trailer dealers — larger ticket than utility/cargo. If you can access these through industry membership, they'd sharpen every number here.
-- **Proxy categories carry assumptions.** Powersports/RV/auto are the nearest analogs by unit price and retail-floor model, but they aren't trailers. They're used as cross-checks, not primary anchors.
-- **Vintage mismatch.** BLS occupation data is May 2024; the all-occupations regional file is May 2023; some dealer sources are older (the gross-margin convention is stable, but absolute dollars drift ~3–4%/yr).
+## Honesty notes
 
-## How to update this repo
-
-When refreshing (annually, when new BLS OEWS drops each spring):
-
-1. Pull the latest BLS OEWS 41-4012 national/PA/Lancaster figures → update [`benchmarks/base-and-ote.md`](benchmarks/base-and-ote.md) and the headline table in [`README.md`](README.md).
-2. Re-check PayScale/Indeed/Salary.com base figures (they shift continuously).
-3. Recompute the regional multiplier if a new all-occupations metro file is out.
-4. Re-pull every figure into [`data/benchmarks.csv`](data/benchmarks.csv) and bump the "Last updated" date.
-5. Dealer-structure sources change slowly — re-verify only if a structure claim is challenged.
-
-Most importantly: **validate against Pine Hill's actual numbers** (real per-unit gross margins, close rates, monthly unit volume). Public benchmarks set the frame; your own unit economics set the plan.
+- The "$150k–$400k+ high-line producer" range is industry orientation, not a hard survey of trailer-specific pay (trailer-specific high-ticket comp data isn't published publicly; the closest member-gated sources are noted in [`sources.md`](sources.md)). It's used to show *direction*, not as a precise benchmark.
+- The literal "20–35% of gross = $500k–$900k" is shown to establish the ceiling, then explicitly set aside as unrealistic — the proposal is intentionally far below it.

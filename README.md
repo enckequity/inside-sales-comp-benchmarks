@@ -1,73 +1,75 @@
-# Inside Sales Compensation Benchmarks — High-Ticket Specialty Equipment
+# Pine Hill — Sales Compensation Proposal
 
-**What to pay a full-cycle inside sales closer at a high-ticket specialty-equipment / trailer dealer** — base, commission structure, on-target earnings (OTE), and pay mix — benchmarked against **real, cited data** (US government wage data + published sales-comp surveys + dealer-industry sources), with a **US-national baseline and a Northeast / Pennsylvania (Lancaster) regional adjustment**.
+A business case for moving our high-ticket closers from a flat salary to **base + per-unit commission**. Built for leadership. Every number ties to our own build sheets or a cited industry source.
 
-> **Role this is built for:** a *full-cycle inside sales closer* — someone who takes the inbound call, quotes, and closes the trailer sale over phone/online. Not a pure appointment-setter (BDR), not a field rep, not a manager.
+> ### The ask, in one sentence
+> Keep the **$75k base, cut nothing**, and add a **per-unit commission** that lands a solid closer around **$195k–$225k** and a top closer around **$255k–$300k** — paid only on units actually delivered.
 
-_Last updated: 2026-06-11. Every figure is sourced — see [`sources.md`](sources.md). How the numbers were triangulated: [`METHODOLOGY.md`](METHODOLOGY.md)._
+> ### Why it's a no-brainer, in one line
+> We currently pay our top closers about **4% of the gross profit they personally generate.** The equipment-dealer norm is **20–35%.** This proposal doesn't make us generous — it moves us from *5–8× below market* to *still 2–3× below market*, with a plan that only pays out when the gross is already in the door.
 
 ---
 
-## TL;DR — the recommended package
+## The math leadership should see first
 
-For a solid full-cycle inside trailer-sales closer in the **Lancaster, PA** market (Pine Hill's region):
+One closer. **Conservative** assumptions, with our actual margins shown alongside (see [Assumptions](#assumptions--confirm-or-adjust)):
 
-| Component | Recommendation | Why |
+| | Conservative | Likely (our real margins) |
 |---|---|---|
-| **Base / draw** | **$38k–$45k** (a recoverable draw against commission is acceptable during ramp) | ~60% of target pay; aligns with how dealers and general inside-sales roles actually pay. |
-| **Commission** | **20–25% of front-end GROSS PROFIT per unit**, calculated *after* an ~$800–$1,000 "pack," with an accelerator to ~30% above a monthly unit/gross threshold | This is the near-universal equipment-dealer structure — pay on **margin, not sale price**. |
-| **Target OTE** | **~$63k–$72k** for a solid closer | Matches the Lancaster median–60th-percentile total cash for this occupation (BLS). |
-| **Top-performer ceiling** | Design so a top closer can reach **$90k–$120k** | 75th–90th percentile of the local occupation. |
-| **Pay mix** | **~60 / 40** base : variable at target | More conservative than SaaS's 50/50 because physical-goods margins are thinner. |
+| Units / year (10/mo) | 120 | 120 |
+| Avg sale price | $80,000 | $80,000 |
+| **Revenue / rep / year** | **$9.6M** | **$9.6M** |
+| Gross margin used | 20% (deliberate haircut) | ~27% (our build sheets) |
+| **Gross profit / rep / year** | **$1.92M** | **~$2.6M** |
+| Current comp | $75,000 | $75,000 |
+| **Current comp as % of the gross they generate** | **3.9%** | **2.9%** |
 
-**National equivalents** run ~6% higher (apply the regional multiplier in reverse — see [`benchmarks/regional.md`](benchmarks/regional.md)).
+We keep ~96% of the gross a top producer generates and pay them ~4%. → [Full economics & sensitivity](docs/economics.md)
 
----
+## The cost-of-sale reality
 
-## Headline benchmark — total cash earnings for this role
+The right metric for a salesperson isn't "is the salary good?" — it's **comp as a % of the gross they produce.** Dealer-industry norm: **20–35%.**
 
-Total annual cash (base **+** commission) for **Sales Reps, Wholesale & Manufacturing, Except Technical** (BLS SOC 41-4012 — the official occupation a trailer closer maps to). BLS bundles commission into the wage, so these are **total-cash** figures, not base alone.
+| Scenario | Rep comp | % of that rep's gross | vs. industry 20–35% |
+|---|---|---|---|
+| **Today** | $75k | **~3–4%** | **5–8× below** |
+| **Proposed — solid (10/mo)** | ~$195k | ~8–10% | still ~2–3× below |
+| **Proposed — top (15/mo)** | ~$255–300k | ~8–10% | still below |
 
-| Market | 25th pct (entry) | Median (solid) | 75th pct (strong) | 90th pct (top) | Source |
-|---|---|---|---|---|---|
-| **US national** | $49,040 | **$66,780** | $97,570 | $134,470 | BLS OEWS May 2024 |
-| **Pennsylvania** | $48,980 | $65,490 | $98,250 | $132,960 | BLS OEWS May 2024 |
-| **Lancaster, PA MSA** | $48,420 | **$63,060** | $87,520 | $127,790 | BLS OEWS May 2024 |
+Even after the raise, we pay our closers **less than half** the low end of normal — while removing the single biggest risk to $9.6M of revenue per rep: **losing them to a competitor who offers $150k and still gets a bargain.**
 
-Independent dealer-industry proxies (powersports / RV floor sales) land in the same band — ~$56k–$57k average, $35k–$80k typical range — confirming the BLS read. Full detail and the inside-sales-survey cross-checks are in [`benchmarks/base-and-ote.md`](benchmarks/base-and-ote.md).
+## The recommended plan
 
----
+- **Base: $75,000 — unchanged.** Nothing is cut. Stability stays.
+- **+ $1,000–$1,250 per unit delivered** (≈ 5–6% of gross). Pure variable: **$0 cost on units we don't sell.**
+- **It helps fund itself.** Our own build sheet shows factory options carry **36.95% margin vs. 26.55% on the base unit.** Paying closers on what they deliver rewards them for attaching more high-margin options — which *grows* gross per deal. A salaried order-taker has no reason to push options; a commissioned closer does.
 
-## Three things that make this role different from a generic "inside sales" job
-
-1. **Pay on gross margin, not revenue.** A $15,000 trailer at ~18% margin is ~$2,700 of gross. At 25% *of gross* that's ~$675 to the rep; at 25% *of revenue* it's $3,750 — more than the entire margin, which is impossible. Equipment dealers pay **20–30% of front-end gross profit** (truck-trailer survey average: 21%). See [`benchmarks/commission.md`](benchmarks/commission.md).
-2. **SaaS comp surveys overstate this role by ~2–3×.** RepVue/Bridge Group/Pavilion data says "$135k–$200k OTE" — but that's software pay, inflated by 70–90% software margins. For a physical-inventory dealer, the right anchors are the non-tech sources (PayScale/Indeed/BLS). This repo flags every SaaS-skewed source. See [`METHODOLOGY.md`](METHODOLOGY.md).
-3. **Lancaster pays below the national average.** For this occupation, Lancaster runs ~0.94× US median; across all jobs the metro runs ~0.85×. Use **~0.90–0.94×** on national figures. See [`benchmarks/regional.md`](benchmarks/regional.md).
-
----
-
-## What's in this repo
-
-```
-inside-sales-comp-benchmarks/
-├── README.md            ← you are here: summary + recommended package
-├── benchmarks/
-│   ├── base-and-ote.md  ← base salary + total cash, national/PA/Lancaster, by experience
-│   ├── commission.md    ← % of gross margin vs revenue, packs, tiers, accelerators
-│   ├── pay-mix.md        ← base-vs-variable split + how aggressive to make it
-│   └── regional.md      ← national → Pennsylvania → Lancaster adjustment factors
-├── data/
-│   └── benchmarks.csv   ← every figure in one machine-readable table
-├── sources.md           ← all citations, with source-quality / "skews-SaaS" caveats
-└── METHODOLOGY.md       ← how the triangulation was done + what data is missing
-```
-
-Every number carries a **low / midpoint / high** range (no fake precision) and a source. Where trailer-specific data genuinely doesn't exist publicly, the repo says so plainly rather than inventing it.
+→ [The plan in detail](docs/the-plan.md) · [Objections answered](docs/objections.md) · [What this role pays elsewhere](docs/market-comparison.md)
 
 ---
 
-## Disclaimer & license
+## The three objections we'll hear (answered in full [here](docs/objections.md))
 
-This is a **public benchmark reference compiled from public sources**, not professional compensation, legal, tax, or accounting advice. Figures are point-in-time and should be validated against your own unit economics (actual gross margins, close rates, and volume) before being put into an offer or pay plan. Sources are cited so you can check them yourself.
+| Objection | The short answer |
+|---|---|
+| *"We don't really know our margins."* | We do — they're in our pricing system (build sheet: **26.55%** base, **36.95%** options). And the plan is a **flat per-unit** amount, so it doesn't even depend on margin precision. It stays affordable at 18%, 22%, or 27%. |
+| *"You already make a healthy $75k salary."* | $75k is healthy for an average job. It is **not** healthy for someone generating **$9.6M revenue / ~$2M gross** a year. We don't benchmark a $10M producer against an average salary — we benchmark against what a competitor will pay to take them. |
+| *"It's all inbound and we pay a lot for lead flow."* | Exactly why the **closer** must be paid well: they're the conversion point where expensive leads become gross or get wasted. We pay a *closing* rate (~5–6% of gross), not a hunter's rate. Underpay them, they leave, and our lead budget pours into a green rep at a lower close rate. |
 
-Content and data: free to use and share (CC BY 4.0 — attribution appreciated). Underlying figures belong to their respective publishers (BLS, PayScale, etc.); see [`sources.md`](sources.md).
+---
+
+## Assumptions — confirm or adjust
+
+These drive every number above. Replace with exact figures and the conclusion only gets stronger (our real margins beat the conservative case):
+
+- Avg unit **~$80k** (our range: $50k–$130k; example build sheet: $86,390)
+- **~10 units / rep / month** (stated: "10+")
+- Gross margin **~27%** actual; modeled at **20%** to be safe
+- Current comp **~$75k** salary
+- *Lead-flow cost:* leadership's number — plug it into the [cost-of-sale view](docs/economics.md); the case holds even at heavy lead spend.
+
+All scenarios are in [`data/scenarios.csv`](data/scenarios.csv). The recommendation is robust across the entire realistic range — see the [sensitivity tables](docs/economics.md#sensitivity).
+
+---
+
+_This is an internal decision aid built from our own figures plus public industry benchmarks ([sources](sources.md) · [methodology](METHODOLOGY.md)). Not legal, tax, or accounting advice — validate against final unit economics before adoption._
