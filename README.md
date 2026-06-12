@@ -53,6 +53,8 @@ Our commission rate (0.6% of sales) was set when volume was lower — this brief
 | 2.5% of sales | $120,000 | $195,000 |
 | *(25% of gross — full dealer standard)* | *$324,000* | *$399,000* |
 
+**Hybrid reps — inbound + outbound:** since closers work company leads *and* self-source deals, the same plan carries a **split rate — 2% on company (inbound) leads, 4% on self-sourced (outbound) deals**, plus a draw during ramp. The premium is funded by the lead cost you *don't* spend on self-sourced sales, so it's self-funding; outbound is additive, and every ~$1.2M a rep hunts adds ~$48k.
+
 → [The plan in detail](docs/the-plan.md) · [Questions leadership will ask](docs/questions.md) · [What this role pays elsewhere](docs/market-comparison.md)
 
 ---

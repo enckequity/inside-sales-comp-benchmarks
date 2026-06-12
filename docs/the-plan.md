@@ -31,6 +31,30 @@ Higher producers earn proportionally more — a closer booking $600k/month (~$7.
 
 ---
 
+## Inbound vs. outbound — a split rate
+
+Our closers work company-provided leads **and** self-source deals. Rather than two separate plans, the simplest structure is **one plan with two rates**, so a single rep is rewarded for hunting on top of closing:
+
+| Deal source | Commission | Rationale |
+|---|---|---|
+| **Inbound** (company lead) | **2% of sales** | Paying for the close; the company supplied the lead. |
+| **Outbound** (self-sourced) | **4% of sales** | ~2× the rate — the rep created demand the lead budget would otherwise pay for. |
+
+Plus a **recoverable draw** during ramp, since building self-sourced pipeline takes time before it pays.
+
+**It's additive.** Outbound earnings stack on top of the inbound plan — every ~$1.2M a rep hunts adds ~$48k (4%):
+
+| Self-sourced sales (on top of $4.8M inbound) | Extra commission | Total comp |
+|---|---|---|
+| $0 | $0 | $171,000 |
+| $600,000 | $24,000 | $195,000 |
+| $1,200,000 | $48,000 | $219,000 |
+| $2,400,000 | $96,000 | $267,000 |
+
+**And the premium pays for itself.** A self-sourced deal **skips the lead-acquisition cost** the company would otherwise spend, and that saving offsets the extra two points of commission. As long as inbound leads cost more than ~2% of sales to acquire (they almost certainly do), an outbound deal is *at least as profitable* for the company as an inbound one — despite paying double the rate. Insert Pine Hill's real lead cost to quantify the net.
+
+---
+
 ## Worked example — a real unit
 
 From a build sheet in our system: total sale **$86,390**, cost $62,400, **gross $23,990 (27.8%)**.
